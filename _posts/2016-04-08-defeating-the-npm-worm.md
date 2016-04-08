@@ -49,7 +49,7 @@ As packages will be more valuable, their author will be more likely to become ta
 
 > npm monitors publish frequency. A spreading worm would set off alarms within npm, and if a spreading worm were identified we could halt all publishing while infected packages were identified and taken down.
 
-What about a [patient worm](https://github.com/DavidBruant/contained-node/blob/master/patient%20worm%20design.md)? The publication frequency is exactly the same as the normal frequency and discrecy makes it hard to detect on users machines as well as hard to detect which packages are infected on npm. You can start playing the [virus signature game](https://en.wikipedia.org/wiki/Computer_virus#Self-modification) but attack is always a step ahead of defense in this game and it'd be a massive amount of resources spent only on this problem. Blaaah...
+What about a [patient worm](https://github.com/DavidBruant/containednpm/blob/master/patient%20worm%20design.md)? The publication frequency is exactly the same as the normal frequency and discrecy makes it hard to detect on users machines as well as hard to detect which packages are infected on npm. You can start playing the [virus signature game](https://en.wikipedia.org/wiki/Computer_virus#Self-modification) but attack is always a step ahead of defense in this game and it'd be a massive amount of resources spent only on this problem. Blaaah...
 
 
 ## Security **by default**
@@ -82,7 +82,7 @@ This is a classic violation of [POLA](https://en.wikipedia.org/wiki/Principle_of
 
 [Forrest Norvell during a recent npm CLI team meeting](https://www.youtube.com/watch?v=xFGIvkwEDKo&feature=youtu.be&t=1839)
 
-![Matrix Morpheus meme: What if I told you it's possible to do secure user-contributed content](https://raw.githubusercontent.com/DavidBruant/contained-node/master/worm%20meme.jpg)
+![Matrix Morpheus meme: What if I told you it's possible to do secure user-contributed content](https://raw.githubusercontent.com/DavidBruant/containednpm/master/worm%20meme.jpg)
 
 Red pill coming your way.
 
@@ -124,7 +124,7 @@ So the lifecycle script needs read-write authority over the project directory. C
 
 ### Proof-of-concept of a how
 
-I have a proof of concepts of this in the [contained-node repo](https://github.com/DavidBruant/contained-node) (sorry it's a bit of a mess right now). It uses [Docker](https://docs.docker.com/) because it was easy for me to write. Smarter people with more time on their hand will find more subtle solutions. The only point I'm trying to make is that it's possible, not that my quick implementation should be used or even a reference.
+I have a proof of concepts of this in the [containednpm repo](https://github.com/DavidBruant/containednpm) (sorry it's a bit of a mess right now). It uses [Docker](https://docs.docker.com/) because it was easy for me to write. Smarter people with more time on their hand will find more subtle solutions. The only point I'm trying to make is that it's possible, not that my quick implementation should be used or even a reference.
 
 In the end, what happens is that if you run `npm install https://github.com/DavidBruant/harmless-worm/tarball/master --save`, what happens is:
 
@@ -186,7 +186,6 @@ Security should not be an opt-in, so npm needs to be on-board otherwise, this is
 
 Assuming there is interest in the exploration:
 
-0. Polish the [contained-node repo](https://github.com/DavidBruant/contained-node) to make it easier to reproduce the defense POC. (I'll do this anyway)
 1. Make an initial list of legitimate authority that lifecycle scripts should have by default
 2. Figure out UX experience and what are the appropriate tools for implementation (currently, `bin/containednpm` uses docker and requires `sudo` privilege which is absurd. There are probably other tools for containement that don't require this and requiring everyone who wants node/npm to install Docker is a ridiculous requirement anyway)
 3. Add that to the `npm cli` under a `--safe` flag (opt-in)
