@@ -51,7 +51,7 @@ As packages will be more valuable, their author will be more likely to become ta
 
 > npm monitors publish frequency. A spreading worm would set off alarms within npm, and if a spreading worm were identified we could halt all publishing while infected packages were identified and taken down.
 
-What about a [patient worm](patient worm design.md)? The publication frequency is exactly the same as the normal frequency and discrecy makes it hard to detect on users machines as well as hard to detect which packages are infected on npm. You can start playing the [virus signature game](https://en.wikipedia.org/wiki/Computer_virus#Self-modification) but attack is always a step ahead of defense in this game and it'd be a massive amount of resources spent only on this problem. Blaaah...
+What about a [patient worm](https://github.com/DavidBruant/contained-node/blob/master/patient%20worm%20design.md)? The publication frequency is exactly the same as the normal frequency and discrecy makes it hard to detect on users machines as well as hard to detect which packages are infected on npm. You can start playing the [virus signature game](https://en.wikipedia.org/wiki/Computer_virus#Self-modification) but attack is always a step ahead of defense in this game and it'd be a massive amount of resources spent only on this problem. Blaaah...
 
 
 ## Security **by default**
@@ -84,7 +84,7 @@ This is a classic violation of [POLA](https://en.wikipedia.org/wiki/Principle_of
 
 [Forrest Norvell during a recent npm CLI team meeting](https://www.youtube.com/watch?v=xFGIvkwEDKo&feature=youtu.be&t=1839)
 
-![Matrix Morpheus meme: What if I told you it's possible to do secure user-contributed content](worm meme.jpg)
+![Matrix Morpheus meme: What if I told you it's possible to do secure user-contributed content](https://raw.githubusercontent.com/DavidBruant/contained-node/master/worm%20meme.jpg)
 
 Red pill coming your way.
 
@@ -93,9 +93,9 @@ Red pill coming your way.
 
 Like the joke above, I'm only parroting the words of others here.
 
-* https://youtu.be/UH66YrzT-_M?t=227
-* https://www.youtube.com/watch?v=eL5o4PFuxTY
-* https://www.youtube.com/watch?v=vrbmMPlCp3U
+* [The Virus Safe Computing Initiative at HP Labs](https://www.youtube.com/watch?v=UH66YrzT-_M&feature=youtu.be&t=227)
+* [The Lazy Programmer's Guide to Secure Computing](https://www.youtube.com/watch?v=eL5o4PFuxTY)
+* [Secure Distributed Programming with Object-capabilities in JavaScript (Mark S. Miller, Google)](https://www.youtube.com/watch?v=w9hHHvhZ_HY)
 
 (these talks are long, but there're worth your time, I promise. I have others if you're interested)
 
@@ -115,6 +115,7 @@ But how?
 
 The first step is defining the appropriate amount of authority that lifecycle scripts should have.
 What are legitimate usages of lifecycle scripts? We can start with the following list:
+
 * build things (like compile coffeescript scripts or compile some C++ to make a C++ Node module) and put it *somewhere in the project directory*
 
 (yes there is a single item, let's have a discussion on what that list should be)
@@ -128,12 +129,14 @@ So the lifecycle script needs read-write authority over the project directory. C
 I have a proof of concepts of this in the [contained-node repo](https://github.com/DavidBruant/contained-node) (sorry it's a bit of a mess right now). It uses [Docker](https://docs.docker.com/) because it was easy for me to write. Smarter people with more time on their hand will find more subtle solutions. The only point I'm trying to make is that it's possible, not that my quick implementation should be used or even a reference.
 
 In the end, what happens is that if you run `npm install https://github.com/DavidBruant/harmless-worm/tarball/master --save`, what happens is:
+
 * npm download the dependency
 * it is saved under `node_modules`
 * the `postscript` script runs and modifies `package.json` in a scary way
 * npm modifies `package.json` to add `worm` in the `dependencies` field
 
 But when you run `./bin/containednpm install https://github.com/DavidBruant/harmless-worm/tarball/master --save`, what happens is:
+
 * (same)
 * (same)
 * the `postscript` fails to edit `package.json` because it only has access to a read-only version
