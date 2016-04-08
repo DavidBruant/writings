@@ -1,10 +1,10 @@
-title: "blog title"
-author: "Blog Author"
+title: "writings"
+author: "David Bruant"
 description: "Really cool blog about ... something"
 #subheading: "Really cool blog about ... something"
 more: "read more"
 url: "http://niklabs.me"
-baseurl: "/contrast" # comment out if in root directory
+baseurl: "/writings" # comment out if in root directory
 
 comments:
     disqus: "niklasbuschmann"
