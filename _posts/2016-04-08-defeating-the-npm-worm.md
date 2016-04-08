@@ -1,6 +1,7 @@
 ---
-published: false
+published: true
 ---
+
 
 # Defeating the npm worm (DRAFT)
 
