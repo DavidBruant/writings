@@ -3,7 +3,7 @@ published: true
 ---
 
 
-# Defeating the npm worm (DRAFT)
+# Defeating the npm worm
 
 ## The threat
 
