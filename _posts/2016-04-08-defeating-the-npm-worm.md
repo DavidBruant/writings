@@ -3,6 +3,7 @@ published: true
 ---
 
 
+
 ## The threat
 
 There is a security vulnerability in [npm](https://www.npmjs.com/) by default that enables writing a [worm](https://en.wikipedia.org/wiki/Computer_worm) that can propagate to anyone doing an `npm install` to a package that would contain an infected dependency (even if the dependency is deep).
@@ -26,6 +27,7 @@ This is serious.
 ## NPM response and defense against a worm
 
 [NPM response](http://blog.npmjs.org/post/141702881055/package-install-scripts-vulnerability) has been considered weak by some. It is. It does not change any default settings, so the threat is not really being addressed.
+
 
 ### Users should opt-in for security
 
@@ -124,7 +126,7 @@ So the lifecycle script needs read-write authority over the project directory. C
 
 ### Proof-of-concept of a how
 
-I have a proof of concepts of this in the [containednpm repo](https://github.com/DavidBruant/containednpm) (sorry it's a bit of a mess right now). It uses [Docker](https://docs.docker.com/) because it was easy for me to write. Smarter people with more time on their hand will find more subtle solutions. The only point I'm trying to make is that it's possible, not that my quick implementation should be used or even a reference.
+I have a proof of concepts of this in the [containednpm repo](https://github.com/DavidBruant/containednpm). It uses [Docker](https://docs.docker.com/) because it was easy for me to write. Smarter people with more time on their hand will find more subtle solutions. The only point I'm trying to make is that it's possible, not that my quick implementation should be used or even a reference.
 
 In the end, what happens is that if you run `npm install https://github.com/DavidBruant/harmless-worm/tarball/master --save`, what happens is:
 
