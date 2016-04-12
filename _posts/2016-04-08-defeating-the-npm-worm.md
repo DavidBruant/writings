@@ -4,6 +4,7 @@ published: true
 
 
 
+
 ## The threat
 
 There is a security vulnerability in [npm](https://www.npmjs.com/) by default that enables writing a [worm](https://en.wikipedia.org/wiki/Computer_worm) that can propagate to anyone doing an `npm install` to a package that would contain an infected dependency (even if the dependency is deep).
@@ -203,3 +204,11 @@ I have to note that there is a cost related to having to maintain the list of de
 Additionally, this default behavior for the CLI would act as negative incentive for anyone who'd want to publish malicious packages. If they know it won't work for the majority of people by default, they'll certainly try to attack something else.
 
 Things can be better; npm, let's [talk](https://twitter.com/ceejbot/status/715385331520942084)!
+
+
+### ack
+
+Thanks [Romain](https://twitter.com/rCrestey) for an early review and convincing me to pursue in the direction of a blogpost that would be less technical and more about the threat and context.
+Thanks [Thomas](https://twitter.com/oncletom) for the help trying to make [containednpm](https://github.com/DavidBruant/containednpm) worm on Mac
+
+
