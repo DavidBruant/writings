@@ -98,7 +98,7 @@ Like the joke above, I'm only parroting the words of others here.
 * [The Lazy Programmer's Guide to Secure Computing](https://www.youtube.com/watch?v=eL5o4PFuxTY)
 * [Secure Distributed Programming with Object-capabilities in JavaScript (Mark S. Miller, Google)](https://www.youtube.com/watch?v=w9hHHvhZ_HY)
 
-(these talks are long, but there're worth your time, I promise. I have others if you're interested)
+(these talks are long, but they're worth your time, I promise. I have others if you're interested)
 
 The folks in these videos have good metaphors for the state of software security. One of my [favorite quote comes from Marc Stiegler](https://youtu.be/eL5o4PFuxTY?t=3913):
 
@@ -131,7 +131,7 @@ I have a proof of concepts of this in the [containednpm repo](https://github.com
 
 In the end, what happens is that if you run `npm install https://github.com/DavidBruant/harmless-worm/tarball/master --save`, what happens is:
 
-* npm download the dependency
+* npm downloads the dependency
 * it is saved under `node_modules`
 * the `postscript` script runs and modifies `package.json` in a scary way
 * npm modifies `package.json` to add `worm` in the `dependencies` field
@@ -146,7 +146,7 @@ It would also fail to read your `$HOME` because it runs in a docker container an
 
 I have to mention that there is zero copy happening. The `package.json` that the contained lifecycle scripts see is the actual one. The creation of the `node_modules` directory happens in the right directory directly, no temporary directory, etc. None of this is magics. Docker does the heavy lifting and I'm just sitting on these shoulders.
 
-What happens if the lifecycle encrypts the filesystem and want to ransom for a bitcoin? It succeeds... inside the docker container which contains few valuable data (only the project you're working on, hopefully, it's versionned so you may not care too much losing it on this computer)... container that is discarded at the end of the `./bin/containednpm` command.
+What happens if the lifecycle encrypts the filesystem and wants to ransom for a bitcoin? It succeeds... inside the docker container which contains few valuable data (only the project you're working on, hopefully, it's versionned so you may not care too much losing it on this computer)... container that is discarded at the end of the `./bin/containednpm` command.
 In any case, all your other projects, your browser history, your emails and your `$HOME` are safe without having you to pay back for them. My pleasure.
 
 That's the way we can change the rules of the game permanently in favor of the defender.
