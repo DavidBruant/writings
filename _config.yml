@@ -3,11 +3,11 @@ author: "David Bruant"
 description: "Really cool blog about ... something"
 #subheading: "Really cool blog about ... something"
 more: "read more"
-url: "http://niklabs.me"
+url: "https://davidbruant.github.io/"
 baseurl: "/writings" # comment out if in root directory
 
-comments:
-    disqus: "niklasbuschmann"
+# comments:
+#    disqus: "niklasbuschmann"
 #    isso: "comments.mysite.org"
 
 style:
@@ -23,12 +23,8 @@ style:
         even: "#222222"
 
 links:
-  - github: "https://github.com/me/"
-  - twitter: "https://twitter.com/me/"
-  - google-plus: "https://plus.google.com/+me"
-  - reddit: "https://www.reddit.com/user/me/"
-  - youtube: "https://www.youtube.com/user/me"
-  - steam: "http://steamcommunity.com/id/me/"
+  - github: "https://github.com/DavidBruant/"
+  - twitter: "https://twitter.com/DavidBruant/"
 
 paginate: 10
 excerpt_separator: "\n\n\n" # excerpt ends after two blank lines

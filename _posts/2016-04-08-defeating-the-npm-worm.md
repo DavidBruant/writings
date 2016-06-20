@@ -1,14 +1,15 @@
 ---
-published: false
+published: true
 ---
 
-# Defeating the npm worm (DRAFT)
+
+
 
 ## The threat
 
 There is a security vulnerability in [npm](https://www.npmjs.com/) by default that enables writing a [worm](https://en.wikipedia.org/wiki/Computer_worm) that can propagate to anyone doing an `npm install` to a package that would contain an infected dependency (even if the dependency is deep).
 
-[More on](https://www.kb.cert.org/vuls/id/319816) [this topic](http://www.infoq.com/news/2016/03/npm-infection)
+[More on](https://www.kb.cert.org/vuls/id/319816) [this](https://medium.freecodecamp.com/npm-package-hijacking-from-the-hijackers-perspective-af0c48ab9922#.evm0u6h95) [topic](http://www.infoq.com/news/2016/03/npm-infection)
 
 This threat uses a combinaison of elements:
 
@@ -27,6 +28,7 @@ This is serious.
 ## NPM response and defense against a worm
 
 [NPM response](http://blog.npmjs.org/post/141702881055/package-install-scripts-vulnerability) has been considered weak by some. It is. It does not change any default settings, so the threat is not really being addressed.
+
 
 ### Users should opt-in for security
 
@@ -50,7 +52,7 @@ As packages will be more valuable, their author will be more likely to become ta
 
 > npm monitors publish frequency. A spreading worm would set off alarms within npm, and if a spreading worm were identified we could halt all publishing while infected packages were identified and taken down.
 
-What about a [patient worm](patient worm design.md)? The publication frequency is exactly the same as the normal frequency and discrecy makes it hard to detect on users machines as well as hard to detect which packages are infected on npm. You can start playing the [virus signature game](https://en.wikipedia.org/wiki/Computer_virus#Self-modification) but attack is always a step ahead of defense in this game and it'd be a massive amount of resources spent only on this problem. Blaaah...
+What about a [patient worm](https://github.com/DavidBruant/containednpm/blob/master/patient%20worm%20design.md)? The publication frequency is exactly the same as the normal frequency and discrecy makes it hard to detect on users machines as well as hard to detect which packages are infected on npm. You can start playing the [virus signature game](https://en.wikipedia.org/wiki/Computer_virus#Self-modification) but attack is always a step ahead of defense in this game and it'd be a massive amount of resources spent only on this problem. Blaaah...
 
 
 ## Security **by default**
@@ -83,7 +85,7 @@ This is a classic violation of [POLA](https://en.wikipedia.org/wiki/Principle_of
 
 [Forrest Norvell during a recent npm CLI team meeting](https://www.youtube.com/watch?v=xFGIvkwEDKo&feature=youtu.be&t=1839)
 
-![Matrix Morpheus meme: What if I told you it's possible to do secure user-contributed content](worm meme.jpg)
+![Matrix Morpheus meme: What if I told you it's possible to do secure user-contributed content](https://raw.githubusercontent.com/DavidBruant/containednpm/master/worm%20meme.jpg)
 
 Red pill coming your way.
 
@@ -92,11 +94,11 @@ Red pill coming your way.
 
 Like the joke above, I'm only parroting the words of others here.
 
-* https://youtu.be/UH66YrzT-_M?t=227
-* https://www.youtube.com/watch?v=eL5o4PFuxTY
-* https://www.youtube.com/watch?v=vrbmMPlCp3U
+* [The Virus Safe Computing Initiative at HP Labs](https://www.youtube.com/watch?v=UH66YrzT-_M&feature=youtu.be&t=227)
+* [The Lazy Programmer's Guide to Secure Computing](https://www.youtube.com/watch?v=eL5o4PFuxTY)
+* [Secure Distributed Programming with Object-capabilities in JavaScript (Mark S. Miller, Google)](https://www.youtube.com/watch?v=w9hHHvhZ_HY)
 
-(these talks are long, but there're worth your time, I promise. I have others if you're interested)
+(these talks are long, but they're worth your time, I promise. I have others if you're interested)
 
 The folks in these videos have good metaphors for the state of software security. One of my [favorite quote comes from Marc Stiegler](https://youtu.be/eL5o4PFuxTY?t=3913):
 
@@ -114,6 +116,7 @@ But how?
 
 The first step is defining the appropriate amount of authority that lifecycle scripts should have.
 What are legitimate usages of lifecycle scripts? We can start with the following list:
+
 * build things (like compile coffeescript scripts or compile some C++ to make a C++ Node module) and put it *somewhere in the project directory*
 
 (yes there is a single item, let's have a discussion on what that list should be)
@@ -124,15 +127,17 @@ So the lifecycle script needs read-write authority over the project directory. C
 
 ### Proof-of-concept of a how
 
-I have a proof of concepts of this in the [contained-node repo](https://github.com/DavidBruant/contained-node) (sorry it's a bit of a mess right now). It uses [Docker](https://docs.docker.com/) because it was easy for me to write. Smarter people with more time on their hand will find more subtle solutions. The only point I'm trying to make is that it's possible, not that my quick implementation should be used or even a reference.
+I have a proof of concepts of this in the [containednpm repo](https://github.com/DavidBruant/containednpm). It uses [Docker](https://docs.docker.com/) because it was easy for me to write. Smarter people with more time on their hand will find more subtle solutions. The only point I'm trying to make is that it's possible, not that my quick implementation should be used or even a reference.
 
 In the end, what happens is that if you run `npm install https://github.com/DavidBruant/harmless-worm/tarball/master --save`, what happens is:
-* npm download the dependency
+
+* npm downloads the dependency
 * it is saved under `node_modules`
 * the `postscript` script runs and modifies `package.json` in a scary way
 * npm modifies `package.json` to add `worm` in the `dependencies` field
 
 But when you run `./bin/containednpm install https://github.com/DavidBruant/harmless-worm/tarball/master --save`, what happens is:
+
 * (same)
 * (same)
 * the `postscript` fails to edit `package.json` because it only has access to a read-only version
@@ -141,7 +146,7 @@ It would also fail to read your `$HOME` because it runs in a docker container an
 
 I have to mention that there is zero copy happening. The `package.json` that the contained lifecycle scripts see is the actual one. The creation of the `node_modules` directory happens in the right directory directly, no temporary directory, etc. None of this is magics. Docker does the heavy lifting and I'm just sitting on these shoulders.
 
-What happens if the lifecycle encrypts the filesystem and want to ransom for a bitcoin? It succeeds... inside the docker container which contains few valuable data (only the project you're working on, hopefully, it's versionned so you may not care too much losing it on this computer)... container that is discarded at the end of the `./bin/containednpm` command.
+What happens if the lifecycle encrypts the filesystem and wants to ransom for a bitcoin? It succeeds... inside the docker container which contains few valuable data (only the project you're working on, hopefully, it's versionned so you may not care too much losing it on this computer)... container that is discarded at the end of the `./bin/containednpm` command.
 In any case, all your other projects, your browser history, your emails and your `$HOME` are safe without having you to pay back for them. My pleasure.
 
 That's the way we can change the rules of the game permanently in favor of the defender.
@@ -184,7 +189,6 @@ Security should not be an opt-in, so npm needs to be on-board otherwise, this is
 
 Assuming there is interest in the exploration:
 
-0. Polish the [contained-node repo](https://github.com/DavidBruant/contained-node) to make it easier to reproduce the defense POC. (I'll do this anyway)
 1. Make an initial list of legitimate authority that lifecycle scripts should have by default
 2. Figure out UX experience and what are the appropriate tools for implementation (currently, `bin/containednpm` uses docker and requires `sudo` privilege which is absurd. There are probably other tools for containement that don't require this and requiring everyone who wants node/npm to install Docker is a ridiculous requirement anyway)
 3. Add that to the `npm cli` under a `--safe` flag (opt-in)
@@ -197,7 +201,14 @@ Bim! Secure default! And no major disruption for anyone. `--unsafe` provides a f
 
 I have to note that there is a cost related to having to maintain the list of default authority over time. I doubt it will be too much, but I know it cannot be zero.
 
-
-Additionally, this default behavior for the CLI acts as negative incentive for anyone who'd want to publish malicious packages. If they know it won't work for the majority of people, they'll certainly try something else.
+Additionally, this default behavior for the CLI would act as negative incentive for anyone who'd want to publish malicious packages. If they know it won't work for the majority of people by default, they'll certainly try to attack something else.
 
 Things can be better; npm, let's [talk](https://twitter.com/ceejbot/status/715385331520942084)!
+
+
+### ack
+
+Thanks [Romain](https://twitter.com/rCrestey) for an early review and convincing me to pursue in the direction of a blogpost that would be less technical and more about the threat and context.
+Thanks [Thomas](https://twitter.com/oncletom) for the help trying to make [containednpm](https://github.com/DavidBruant/containednpm) worm on Mac
+
+
