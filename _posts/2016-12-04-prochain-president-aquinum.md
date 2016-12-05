@@ -44,12 +44,11 @@ Il est dur de savoir quand exactement, pour quelles raisons exactes, etc. mais l
 
 Mais j'observe que fières et fortes de multiples réussites, les bactéries ont pris beaucoup de confiance et ont voulu exister non plus seulement comme écosystème de bactéries, mais pour elles-même.
 
-Dans les Conseils d'Administration, on s'est mis à entendre les bactéries s'indigner qu'Aquinum ne soit pas invité à tel ou tel évènement. On s'est mis à entendre les bactéries vouloir que la marque Aquinum soit plus visible ou présente ici ou là, qu'on ne voyait pas assez le logo sur telle ou telle vidéo. Certaines bactéries se sont mises à vouloir déposer à l'INPI les noms des évenements, comme le *BordeauxJS* ou les *coding goûters* (je me réjouis encore que ça n'aie pas eu lieu, le retour de flamme eut été très violent vu que ces événements dont j'ai initié les versions bordelaises ne sont pas ma création ni celle de l'association :-) ).
-
-Les bactéries ont stratifié l'association avec des niveaux d'accès à l'information différents. "Ma" bataille pour la transparence a été un peu longue, mais a mené ses fruits. On cherche toutefois encore les statuts de l'association sur le site web :-/
+Dans les Conseils d'Administration, on s'est mis à entendre les bactéries s'indigner qu'Aquinum ne soit pas invité à tel ou tel évènement. On s'est mis à entendre les bactéries vouloir que la marque Aquinum soit plus présente ici ou là, qu'on n'en voyait pas assez le logo sur telle ou telle vidéo. Certaines bactéries se sont mises à vouloir déposer à l'INPI les noms des évenements, comme le *BordeauxJS* ou les *coding goûters* (je me réjouis encore que ça n'aie pas eu lieu, le retour de flamme eut été très violent vu que ces événements dont j'ai initié les versions bordelaises ne sont pas ma création ni celle de l'association :-) ).
 
 Le Node, progéniture d'Aquinum, a pris de l'importance et a été beaucoup plus visible qu'Aquinum auprès du grand publiques. Les bactéries s'en sont vexées un peu. Il a été un temps discutée l'idée que seuls les adhérents à Aquinum pourraient organiser un événement au Node. Avorté, heureusement. Il a été un temps discutée l'idée que seuls les adhérents à Aquinum pourraient *assister* à un événement au Node. Avorté **heureusement** !! Mais le fait que ces discussions aient eu lieu est symptomatique en soi.
 
+Les bactéries ont stratifié l'association avec des niveaux d'accès à l'information différents. "Ma" bataille pour la transparence a été un peu longue, mais a mené ses fruits. On cherche toutefois encore les statuts de l'association sur le site web :-/
 
 ### externes
 
@@ -57,7 +56,7 @@ En 6 ans, de l'eau est passé sous le Pont de Pierre ; dans un sens et [dans l'a
 
 Une partie de ces initiatives ont de très bonnes raisons d'exister pour elles-même. Pour d'autres, on peut se demander pourquoi elles n'ont pas eu lieu sous la bannière Aquinum.
 
-Peut-être qu'il n'y a plus besoin d'autant de fédération qu'avant, ou pas la même du moins. Peut-être qu'Aquinum n'est plus au bon endroit sur l'échequier.
+Peut-être qu'il n'y a plus besoin d'autant de fédération qu'avant, ou pas la même du moins. Peut-être qu'Aquinum n'est plus au bon endroit sur l'échequier social bordelais. (balayons l'éternel débat sur la territorialité, Aquinum n'a jamais atteint l'Aquitaine comme prétendu)
 
 
 ## alors qui  ?
@@ -75,17 +74,22 @@ Une petite phrase de respiration pour laisser reposer l'esprit sur cette idée q
 
 Reprenons.
 
-Mais le Node ? Pas mal d'administrateurs d'Aquinum ne le sont devenus que dans l'objectif de participer à la gouvernance du Node. Ces personnes se cognaient parfois très ouvertement des autres activités de l'association. Il a été plusieurs fois suggéré de former une gouvernance uniquement centrée sur le Node, séparée d'Aquinum et gérée par les personnes qui y travaillent. Je regrette que ça n'aie pas abouti.
+
+### Mais le Node ? 
+
+Pas mal d'administrateurs d'Aquinum ne le sont devenus que dans l'objectif de participer à la gouvernance du Node. Ces personnes se cognaient parfois très ouvertement des autres activités de l'association. Pas mal d'administrateur d'Aquinum ne passe pas de temps au Node et n'ont donc pas vraiment de légitimité à prendre des décisions concernant la gestion du lieu. Il a été plusieurs fois suggéré de former une gouvernance uniquement centrée sur le Node, séparée d'Aquinum et gérée par les personnes qui y travaillent. Je regrette que ça n'aie jamais abouti.
 
 Le Node pourrait être repris par une nouvelle association dont l'unique objet serait de le faire vivre. Cette nouvelle association reprendrait l'activité de coworking au quotidien, d'évenementiel et ça serait tout. Cette configuration serait plus cohérente avec la compréhension que le reste du monde a sur l'ensemble Node+Aquinum (en gros, le Node est connu et a bonne image, Aquinum est peu connu en proportion et a une réputation plus hétérogène selon les cercles qui en parlent). Cette configuration serait plus cohérente avec les gens qui occupent le lieu et ceux qui ne sont rentrés dans Aquinum que pour s'en occuper.
-La gestion pourrait être plus transparente encore qu'elle ne l'est aujourd'hui aussi (on raconte qu'on se fait engueuler quand on demande si la Mairie va renouveller l'accord avec Aquinum sur le Node :-/) ; plus "horizontale" aussi. 
+La gestion pourrait être plus transparente encore qu'elle ne l'est aujourd'hui aussi (on raconte qu'on n'obtient pas de réponse et on se fait engueuler quand on demande si la Mairie va renouveller l'accord avec Aquinum sur le Node :-/) ; plus "horizontale" aussi. 
 
 Aquinum souffre aussi chroniquement d'un "manque d'investissement" de ses membres dans ses activités. Peut-être est-il temps de porter une initiative qui met en adéquation ses ambitions et ses moyens. Faire moins et accepter que c'est très bien comme ça.
 
 
 ## mot de fin
 
-J'ai tracé ici une conclusion possible. Les grandes lignes m'ont l'air cohérentes avec l'histoire que j'ai comprise. Il y a beaucoup de points mineurs à régler avant que ça ne soit vraiment réalisable. Merci de ne pas présupposer quoi que ce soit que je n'aurais pas explicitement écrit quant à ce que cette nouvelle association serait ou ne serait pas :-) 
+J'ai tracé ici une conclusion possible. Les grandes lignes m'ont l'air cohérentes avec l'histoire que j'ai comprise. Il y aurait beaucoup de points mineurs à régler avant que ça ne soit vraiment réalisable. 
+
+Merci de ne pas présupposer quoi que ce soit que je n'aurais pas explicitement écrit quant à ce que cette nouvelle association serait ou ne serait pas :-) Le lecteur attentif aura remarqué qu'il a délibérément été écrit peu.
 
 Mais discutons-en.
 
