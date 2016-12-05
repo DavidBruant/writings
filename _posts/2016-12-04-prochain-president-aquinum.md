@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Le prochain Président d'Aquinum
 ---
 ## motivation
