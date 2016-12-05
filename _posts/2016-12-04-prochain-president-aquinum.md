@@ -20,7 +20,7 @@ Ce post n'est pas une critique d'individus en particulier. Je n'ai pas les idée
 
 ### disclaimer
 
-Je suis arrivé à Aquinum après un an d'existence. J'ai participé à l'élaboration du Node. J'ai fait partie de Conseil d'Administration de l'association, puis en suis parti.
+Je suis arrivé à Aquinum après un an d'existence. J'ai participé à l'élaboration du Node. J'ai fait partie du Conseil d'Administration de l'association, puis en suis parti.
 
 
 ## carte de l'époque
