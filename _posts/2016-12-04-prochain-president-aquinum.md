@@ -15,7 +15,7 @@ Ce post de blog n'a de sens et d'intérêt que si vous connaissez et vous intér
 
 Ce post est une opinion personnelle. Elle se base sur ce que je peux observer et j'ai conscience que mon point de vue ne m'offre qu'une vision limitée des faits. Les conclusions que je tire sont donc évidemment biaisées. Je suis ouvert à ce que l'on m'ouvre les yeux à d'autres perspectives, mais je vais quand même prendre le risque d'écrire ici des bêtises.
 
-Ce post n'est pas une critique d'individus en particulier. Je n'ai pas les idées claires sur des implications ou responsabilités de chacun. L'objet ici n'est pas de pointer quiconque du doigt.
+Ce post n'est pas une critique d'individus en particulier. Je n'ai pas les idées claires sur des implications ou responsabilités de chacun. L'objet ici n'est pas de pointer quiconque du doigt, mais lister des observations, essayer d'analyser, essayer de tirer des conclusions. YMMV.
 
 
 ### disclaimer
@@ -40,18 +40,47 @@ Les bactéries en écosystème ont su créer une ambiance, une atmosphère accue
 
 ### internes
 
-Il est dur de savoir quand exactement, pour quelles raisons exactes, etc. mais l'ambiance a changé. Fières et fortes de multiples réussites, les bactéries ont pris beaucoup de confiance et ont voulu exister non plus seulement comme écosystème de bactéries, mais pour elles-même.
+Il est dur de savoir quand exactement, pour quelles raisons exactes, etc. mais l'ambiance a changé. Je me garderai d'explications triviales, je me garderai notamment de choisir des boucs-émissaires comme celà a déjà été tenté.
 
-Dans les Conseils d'Administration, on s'est mis à entendre les bactéries s'indigner qu'Aquinum ne soit pas invité à tel ou tel évènement. On s'est mis à entendre les bactéries vouloir que la marque Aquinum soit plus visible ou présente ici ou là. Certaines bactéries se sont mises à vouloir déposer à l'INPI les noms des évenements, comme le *BordeauxJS* ou les *coding goûters* (je me réjouis encore que ça n'aie pas eu lieu, le retour de flamme eut été très violent vu que ces événements dont j'ai initié les versiones bordelaises ne sont pas ma création ni celle de l'association :-) ).
+Mais j'observe que fières et fortes de multiples réussites, les bactéries ont pris beaucoup de confiance et ont voulu exister non plus seulement comme écosystème de bactéries, mais pour elles-même.
+
+Dans les Conseils d'Administration, on s'est mis à entendre les bactéries s'indigner qu'Aquinum ne soit pas invité à tel ou tel évènement. On s'est mis à entendre les bactéries vouloir que la marque Aquinum soit plus visible ou présente ici ou là, qu'on ne voyait pas assez le logo sur telle ou telle vidéo. Certaines bactéries se sont mises à vouloir déposer à l'INPI les noms des évenements, comme le *BordeauxJS* ou les *coding goûters* (je me réjouis encore que ça n'aie pas eu lieu, le retour de flamme eut été très violent vu que ces événements dont j'ai initié les versions bordelaises ne sont pas ma création ni celle de l'association :-) ).
 
 Les bactéries ont stratifié l'association avec des niveaux d'accès à l'information différents. "Ma" bataille pour la transparence a été un peu longue, mais a mené ses fruits. On cherche toutefois encore les statuts de l'association sur le site web :-/
 
-Le Node, progéniture d'Aquinum, a pris de l'importance et a été beaucoup plus visible qu'Aquinum auprès du grand publiques. Les bactéries s'en sont vexées un peu. Il a été un temps discutée l'idée que seuls les adhérents à Aquinum pourraient organiser un événement au Node. Avorté, heureusement. Il a été un temps discutée l'idée que seuls les adhérents à Aquinum pourraient *assister* à un événement au Node. Avorté **heureusement** !! Mais ces sujets de discussions sont symptomatiques.
+Le Node, progéniture d'Aquinum, a pris de l'importance et a été beaucoup plus visible qu'Aquinum auprès du grand publiques. Les bactéries s'en sont vexées un peu. Il a été un temps discutée l'idée que seuls les adhérents à Aquinum pourraient organiser un événement au Node. Avorté, heureusement. Il a été un temps discutée l'idée que seuls les adhérents à Aquinum pourraient *assister* à un événement au Node. Avorté **heureusement** !! Mais le fait que ces discussions aient eu lieu est symptomatique en soi.
 
 
 ### externes
 
-En 6 ans, de l'eau est passé sous le Pont de Pierre ; dans un sens et [dans l'autre](https://fr.wikipedia.org/wiki/Mascaret). De nouvelles communautés autour du numérique se sont fédérées, de nouveaux espaces de coworking ont ouvert. Une liste non exhaustive, mélangée, sans cohérence et désordonnée contiendrait notamment la ruche, le Wagon Bordeaux, cohome, les bordelais, Darwin, agnostech, Nomade, l'Asile, les Design&Beers.
+En 6 ans, de l'eau est passé sous le Pont de Pierre ; dans un sens et [dans l'autre](https://fr.wikipedia.org/wiki/Mascaret). De nouvelles communautés plus ou moins autour du numérique se sont fédérées, de nouveaux espaces de coworking ont ouvert. Une liste non exhaustive, mélangée, sans cohérence et désordonnée contiendrait notamment la ruche, le Wagon Bordeaux, cohome, les bordelais, Darwin, agnostech, Nomade, l'Asile, les Design&Beers. Maintenant, il y a aussi FrenchTech dans le paysage, des nouvelles écoles/formations à foison, etc.
+
+Une partie de ces initiatives ont de très bonnes raisons d'exister pour elles-même. Pour d'autres, on peut se demander pourquoi elles n'ont pas eu lieu sous la banière Aquinum.
+
+Peut-être qu'il n'y a plus besoin d'autant de fédération qu'avant, ou pas la même du moins. Peut-être qu'Aquinum n'est plus au bon endroit sur l'échequier.
+
+
+## prochain président
+
+Le fait que personne ne se dégage pour avoir envie de reprendre la Présidence est symptomatique aussi. D'un objet qui n'intéresse plus vraiment ?
+
+Peut-être qu'Aquinum n'a plus vraiment de raison d'exister sous la même forme ?
+
+Peut-être est-il temps de dire au revoir et prononcer la dissolution ?
+
+
+## Dissolution ?!
+
+Une petite phrase de respiration pour laisser reposer l'esprit sur cette idée qui pourra être reçu violemment par certain.e.s lecteur.ice.s. Et digérer.
+
+Reprenons.
+
+Mais le Node ? Ce n'est pas vraiment un secret que pas mal d'administrateurs ne le sont devenus uniquement dans l'objectif de participer à la gouvernance du Node. Ces personnes se cognaient très explicitement des autres activités de l'association. Il a été un temps suggéré de former une gouvernance uniquement centrée sur le Node et géré par les personnes qui y travaillent. Il est regrettable que ça n'aie pas abouti.
+
+Le Node pourrait être repris par une association dont l'unique objet serait de le faire vivre.
+
+
+
 
 
 
