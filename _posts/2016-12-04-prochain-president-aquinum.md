@@ -60,7 +60,7 @@ Une partie de ces initiatives ont de très bonnes raisons d'exister pour elles-m
 Peut-être qu'il n'y a plus besoin d'autant de fédération qu'avant, ou pas la même du moins. Peut-être qu'Aquinum n'est plus au bon endroit sur l'échequier.
 
 
-## prochain président
+## alors qui  ?
 
 Le fait que personne ne se dégage pour avoir envie de reprendre la Présidence est symptomatique aussi. D'un objet qui n'intéresse plus vraiment ?
 
@@ -75,14 +75,21 @@ Une petite phrase de respiration pour laisser reposer l'esprit sur cette idée q
 
 Reprenons.
 
-Mais le Node ? Ce n'est pas vraiment un secret que pas mal d'administrateurs ne le sont devenus uniquement dans l'objectif de participer à la gouvernance du Node. Ces personnes se cognaient très explicitement des autres activités de l'association. Il a été un temps suggéré de former une gouvernance uniquement centrée sur le Node et géré par les personnes qui y travaillent. Il est regrettable que ça n'aie pas abouti.
+Mais le Node ? Pas mal d'administrateurs d'Aquinum ne le sont devenus que dans l'objectif de participer à la gouvernance du Node. Ces personnes se cognaient parfois très ouvertement des autres activités de l'association. Il a été un temps suggéré de former une gouvernance uniquement centrée sur le Node, séparée d'Aquinum et gérée par les personnes qui y travaillent. Je regrette que ça n'aie pas abouti.
 
-Le Node pourrait être repris par une association dont l'unique objet serait de le faire vivre.
+Le Node pourrait être repris par une nouvelle association dont l'unique objet serait de le faire vivre. Cette nouvelle association reprendrait l'activité de coworking au quotidien, d'évenementiel et ça serait tout. Cette configuration serait plus cohérente avec la compréhension que le reste du monde a sur l'ensemble Node+Aquinum (en gros, le Node est connu et a bonne image, Aquinum est peu connu en proportion et a une réputation plus hétérogène selon les cercles qui en parlent). Cette configuration serait plus cohérente avec les gens qui occupent le lieu et ceux qui ne sont rentrés dans Aquinum que pour s'en occuper.
+La gestion pourrait être plus transparente encore qu'elle ne l'est aujourd'hui aussi ; plus "horizontale" aussi. 
+
+Aquinum souffre aussi chroniquement d'un "manque d'investissement" de ses membres dans ses activités. Peut-être est-il temps de porter une initiative qui met en adéquation ses ambitions et ses moyens. Faire moins et se dire que c'est très bien comme ça.
 
 
+## mot de fin
 
+J'ai tracé ici une conclusion possible. Les grandes lignes m'ont l'air cohérentes avec l'histoire que j'ai comprise. Il y a beaucoup de points mineurs à régler avant que ça ne soit vraiment réalisable. Merci de ne pas présupposer quoi que ce soit que je n'aurais pas explicitement quant à ce que cette nouvelle association serait ou ne serait pas :-) 
 
-`return undefined`
+Mais discutons-en.
+
+Le prochain Président d'Aquinum ? `return undefined`
 
 
 
