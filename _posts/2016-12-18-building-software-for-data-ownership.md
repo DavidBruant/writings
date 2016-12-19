@@ -15,11 +15,22 @@ When entering data into a computer, everyone has an expectation that the compute
 
 I used your software to create data. It does not mean my data is yours. It doesn't mean I want you to read my data. Thank you for the tool, I'll keep the rest.
 
-Data should be saved first and foremost on the device I created the data on.
+My data should be saved first and foremost on the device I created the data on.
 * File system for desktop (database if useful)
 * whatever file/storage API is available on mobile
 * localStorage/IndexedDB in a browser
-* 
+
+Then the data should be saved in a computer that is less likely to be lost/stolen/destroyed-by-mistake. Some people already have an online space to save data outside their own device:
+* [Framadrop](https://framadrop.org/) (based on [lufi](https://framagit.org/luc/lufi) )
+* Some [Remote Storage](https://remotestorage.io/)-compatible service
+* Cozy?
+* Dropbox
+* Google Drive
+* box.com
+
+Allow the users to save their data in their places. Then and only then should you consider storing the data in your own servers 
+
+
 
 
 ### Do not lose my data
@@ -38,16 +49,23 @@ On my computer, use the file system. On the web use localStorage first, then sen
 It's super rare that I type something in a computer with the sole intent of keeping it for myself. Any software should offer the possibility to share what's been created via URL.
 
 
+### (edit) Sharing
+
+
+
+## Review of a few softwares
+
+* gmail.com VS email client
+* prose.io
+* 
 
 
 
 
 
 
-
-
-
-
+Note to pierre Ozoux: what about a remoteStorage/Google Drive proxy?
+User logs in to a remoteStorage Google app, user gets a remoteStorage URL. Data is effectively stored in Google Drive
 
 
 
