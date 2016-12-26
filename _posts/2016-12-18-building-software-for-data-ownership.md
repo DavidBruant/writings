@@ -19,6 +19,43 @@ It can be sumarized as follows:
 
 I used your software to create data. It does not mean my data is yours. It doesn't mean I want you to read my data. Thank you for the tool, I'll keep the rest.
 
+Until i've given you explicit consent, you don't copy my data to your servers, you don't analyze it, you don't target ads at my face.
+
+Terms of Services are good when you're trying to protect yourself from legal consequences, but [they're a lie](https://tosdr.org/). You know it, i know it, everyone does. They're nowhere near being enough from a moral standpoint to be understood as consent. More is expected. I don't care it owning my data does not fit in your business plan.
+
+For the purpose of finding my data on different devices, it's fine to use a server, but it should be some data storage location that i own. Some people already have an online space to save data outside their own device like Google Drive or Dropbox.
+
+
+### Do not lose my data
+
+YOLO. I mean... seriously. Time is precious!
+
+To the computer, data is data. To a human being, it took time before hitting the keyboard, clicking a mouse, voice inputing; before getting to a point where the data to be ready. Human beings, a single life, no time to waste; not on computer issues anyway.
+
+Any software where data is entered in any way should save the data, so it's not lost. This should happen automatically, in the background. What is the deal with "save" buttons? And "restore" features? Just save the data and give it back to me when I'm back by default, without having me to do anything! Storage is cheap, the code is trivial to write, no excuse.
+
+On my computer, use the file system. On the web use localStorage first, then send to a user-controlled data backup service or the server.
+
+**Nobody should ever have to lose more than one minute of computer work.** 
+
+
+### (read) Sharing
+
+It's rare that I create data in a computer with the sole intent of keeping it for myself. Any software should offer the possibility to share what's been created via URL.
+
+
+### (edit) Sharing
+
+
+
+## Review of a few softwares
+
+* gmail.com VS email client
+* prose.io
+* 
+
+
+
 My data should be saved first and foremost on the device I created the data on.
 * File system for desktop (database if useful)
 * whatever file/storage API is available on mobile
@@ -34,37 +71,6 @@ Then the data should be saved in a computer that is less likely to be lost/stole
 * box.com
 
 Allow the users to save their data in their places. Then and only then should you consider storing the data in your own servers 
-
-
-
-
-### Do not lose my data
-
-YOLO. I mean... seriously. Time is precious!
-
-To the computer, data is data. To a human being, it took time before hitting the keyboard, clicking a mouse, voice inputing; before getting to a point where the data to be ready. Human beings, a single life, no time to waste; not on computer issues anyway.
-
-Any software where data is entered in any way should save the data, so it's not lost. uh... automatically, in the background is meant. What is the deal with "save" buttons? And "restore" features? Just save the data and give it back to me when I'm back by default, without having me to do anything! Storage is cheap, the code is trivial to write, no excuse.
-
-On my computer, use the file system. On the web use localStorage first, then send to a user-controlled data backup service or the server.
-
-**Nobody should ever have to lose more than one minute of computer work.** 
-
-
-### (read) Sharing
-
-It's super rare that I type something in a computer with the sole intent of keeping it for myself. Any software should offer the possibility to share what's been created via URL.
-
-
-### (edit) Sharing
-
-
-
-## Review of a few softwares
-
-* gmail.com VS email client
-* prose.io
-* 
 
 
 
