@@ -39,12 +39,11 @@ On my computer, use the file system. On the web use localStorage first, then sen
 **Nobody should ever have to lose more than one minute of computer work.** 
 
 
-### (read) Sharing
+### Sharing for reading and editing
 
-It's rare that I create data in a computer with the sole intent of keeping it for myself. Any software should offer the possibility to share what's been created via URL.
+It's rare that I create data in a computer with the sole intent of keeping it for myself. Any software should offer the possibility to share what's been created via URL. A [capability URL](https://w3ctag.github.io/capability-urls/) preferably.
 
-
-### (edit) Sharing
+The goal would be to get to the [six features of rich sharing](http://www.hpl.hp.com/techreports/2009/HPL-2009-169.pdf). Read this paper, work towards it. I know it's hard, but it's a good goal to aim at.
 
 
 
