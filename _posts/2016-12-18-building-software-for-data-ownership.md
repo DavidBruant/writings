@@ -41,9 +41,13 @@ On my computer, use the file system. On the web use localStorage first, then sen
 
 ### Sharing for reading and editing
 
+This section is applicable only if data is not stored in user-controlled storage.
+
 It's rare that I create data in a computer with the sole intent of keeping it for myself. Any software should offer the possibility to share what's been created via URL. A [capability URL](https://w3ctag.github.io/capability-urls/) preferably.
 
 The goal would be to get to the [six features of rich sharing](http://www.hpl.hp.com/techreports/2009/HPL-2009-169.pdf). Read this paper, work towards it. I know it's hard, but it's a good goal to aim at.
+
+
 
 
 
