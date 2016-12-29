@@ -58,6 +58,15 @@ Whether it's on desktop or mobile, an Internet connection should not be taken fo
 It's sort of obvious for desktop software, but it's not enough understood in mobile apps or on the web. The web has [Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker) now. Already available for [~62% of page views](http://caniuse.com/#search=service) at the time of writing. Use it. No excuse.
 
 
+## 
+
+* Data is saved in the background regularly without the user having to intervene
+* Data is first stored on the device it's created
+* Data can be accessed online of offline
+* Data is saved/synced/backuped in a server of the user's choosing
+* (if applicable) data can be stored in the software distributor server after the user has been properly informed of what this means
+* Read, create and edit capabilities can easily be rich-shared 
+
 
 
 ## Review of a few softwares
@@ -68,6 +77,7 @@ It's sort of obvious for desktop software, but it's not enough understood in mob
 * web browser
 * old school 
 * Google docs
+* Social networks
 
 
 
