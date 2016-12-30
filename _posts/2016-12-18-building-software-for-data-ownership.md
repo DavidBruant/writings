@@ -66,6 +66,7 @@ It's sort of obvious for desktop software, but it's not enough understood in mob
 * Data is saved/synced/backuped in a server of the user's choosing
 * (if applicable) data can be stored in the software distributor server after the user has been properly informed of what this means
 * Read, create and edit capabilities can easily be rich-shared 
+* data portability. Export in open format
 
 
 
