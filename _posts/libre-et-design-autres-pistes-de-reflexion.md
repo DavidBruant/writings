@@ -81,7 +81,7 @@ Il y a des dévs qui sont capables de faire du design sans que ça soit le cœur
 
 Il y aura [toujours des libristes](https://twitter.com/mariejulien/status/830522479831633920) qui n'ont pas envie de travailler avec des gens d'une autre culture. Dommage. La mauvaise nouvelle, c'est qu'il faut juste passer son chemin et ne pas perdre de temps avec des gens avec qui il n'y a aucune chance de créer ensemble. La bonne nouvelle, c'est que l'on n'est pas obligé de travailler avec qui que ce soit dans le monde du logiciel libre... 
 
-Quand on *fork*, on perd le canal de distribution principale du logiciel, mais l'auteur nous explique que "[les questions] [de la stratégie et du positionnement] ne sont jamais abordées". Il ne devrait donc pas être si difficile de faire mieux pour devenir le canal de distribution principale ?
+Quand on *fork*, on perd le canal de distribution principale du logiciel, mais l'auteur nous explique que "[les questions] [de la stratégie et du positionnement] ne sont jamais abordées" dans les projets de logiciel libre. Il ne devrait donc pas être si difficile de faire mieux pour devenir le canal de distribution principale ?
 
 
 
