@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: 'Design dans le libre, pistes de solution ?'
 ---
 ## Une réponse
@@ -84,8 +84,3 @@ Il y aura [toujours des libristes](https://twitter.com/mariejulien/status/830522
 Quand on *fork*, on perd le canal de distribution principale du logiciel, mais l'auteur nous explique que "[les questions] [de la stratégie et du positionnement] ne sont jamais abordées" dans les projets de logiciel libre. Il ne devrait donc pas être si difficile de faire mieux pour devenir le canal de distribution principale ?
 
 Mais [la collaboration est possible](https://www.youtube.com/watch?v=XdCPblnTMCw) si les personnes autour de la table partagent un même objectif et une certaine ouverture d'esprit.
-
-
-
-
-
