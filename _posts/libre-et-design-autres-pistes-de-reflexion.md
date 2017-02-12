@@ -71,6 +71,17 @@ J'ai posé des cailloux dans mes réponses précédentes. Evidemment, ça commen
 
 C'était fascinant d'aller au [DemoDay du Wagon Bordeaux](https://www.meetup.com/fr-FR/Le-Wagon-Bordeaux-Coding-Station-Bootcamp/events/235350908/). Parmi les gens qui apprenent à coder, il y a des gens qui veulent lancer leur startup. Illes ne veulent pas devenir développeur à plein temps pour autant. Mais apprendre à coder leur met un premier pied dans le monde des dévs, partager leur culture et au final, savoir mieux parler avec des dévs le jour où il veulent recruter ou évaluer le travail d'un développeur.
 
+Il y a des dévs qui sont capables de faire du design sans que ça soit le cœur de leur métier. Et des designers capables de dév sans que ça soit le cœur de leur métier. Mais ça aide à se comprendre, à trouver les bons outils/workflow pour collaborer efficacement dans nos métiers respectifs.
+
+#### La triste mais nécessaire exclusion ?
+
+> Je viens de comprendre : les libristes font exprès d'être désagréables avec les non-geeks, par snobisme ou pour protéger leur utopie 😕
+
+[- Clochix](https://twitter.com/clochix/status/828603512909094917) &lt;3
+
+Il y aura [toujours des libristes](https://twitter.com/mariejulien/status/830522479831633920) qui n'ont pas envie de travailler avec des gens d'une autre culture. Dommage. La mauvaise nouvelle, c'est qu'il faut juste passer son chemin et ne pas perdre de temps avec des gens avec qui il n'y a aucune chance de créer ensemble. La bonne nouvelle, c'est que l'on n'est pas obligé de travailler avec qui que ce soit dans le monde du logiciel libre... 
+
+Quand on *fork*, on perd le canal de distribution principale du logiciel, mais l'auteur nous explique que "[les questions] [de la stratégie et du positionnement] ne sont jamais abordées". Il ne devrait donc pas être si difficile de faire mieux pour devenir le canal de distribution principale ?
 
 
 
