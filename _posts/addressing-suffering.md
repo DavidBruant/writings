@@ -1,6 +1,7 @@
 ---
 published: true
 ---
+
 ## Addressing suffering
 
 Working towards the [overarching goal of reducing suffering](./overarching-goals).

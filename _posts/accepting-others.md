@@ -1,6 +1,7 @@
 ---
 published: true
 ---
+
 ## Accepting others
 
 Differences between human beings exist. They shouldn't be a reason for arbitrary differences in treatment.

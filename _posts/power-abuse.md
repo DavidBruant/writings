@@ -1,6 +1,7 @@
 ---
 published: true
 ---
+
 ## Power abuse
 
 In order to address suffering, [analysing and addressing root causes](./addressing-suffering) is necessary.
