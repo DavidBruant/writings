@@ -14,7 +14,7 @@ i just feel it's a right goal
 
 i don't know whether what should be reduced should be the average (per human), median, total, something else
 
-> chuis un empathique de naissance: j'ai une capacité à absorber la souffrance des autres... en fait nan... j'ai une incapacité à ne pas ressentir la souffrance des autres qui est folle.
+> chuis un empathique de naissance: j'ai une capacité à absorber la souffrance des autres... en fait nan... j'ai une incapacité à ne pas absorder la souffrance des autres qui est folle.
 
 [source](https://youtu.be/s9aInd_BO8Y?t=711)
 
