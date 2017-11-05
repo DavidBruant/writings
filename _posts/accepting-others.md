@@ -6,7 +6,7 @@ published: true
 
 Differences between human beings exist. They shouldn't be a reason for arbitrary differences in treatment.
 
-Upon agreement with this principle, the following rule can be inferred: never set your expectations on others, on how they should be living their lives
+Upon agreement with this principle, the following rule can be inferred: never set your expectations on others, on how they should be living their lives... unless in defense of this rule
 
 You shouldn't tell women what they wear or have expectations over it, be frustrated, disappointed, it's not your problem<br>
 You shouldn't tell whether women should keep a child they're not ready to care for. Not your body, not your opinion<br>

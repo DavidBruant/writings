@@ -6,17 +6,11 @@ published: true
 
 Working towards the [overarching goal of reducing suffering](./overarching-goals).
 
-To address suffering, one must find the various sources of suffering. Non-exhaustive list, unimportant order:
+On the causes of suffering, a first division that can be made:
+* caused by other humans
+* not caused by another human
 
-* malnutrition
-* diseases
-* human-to-human hurt
-    * physical pain
-    * heart ache
-    * psychological abuse
-* anything that frustrates a need and lots of desires
-
-This is the first step.
+Other divisions could be found, but this one is important because most suffering is caused by other humans [citation needed]. Suffering caused by humans is also the most lilely to be addressable.
 
 ### Short-term: band-aid
 
