@@ -112,7 +112,7 @@ In case the UI looks wrong, you know exactly which part of the code is to blame 
 * the function
 * the input data
 
-If the problem is in the function, easy, get the same input datA pure function. a, write a [regression test](https://en.wikipedia.org/wiki/Regression_testing) that fails and work on your function as much as needed until the new test passes along with all the other tests. To get the same input data, either a `console.log` or remote logging at the function top will get it.
+If the problem is in the function, easy, get the same input data pure function, write a [regression test](https://en.wikipedia.org/wiki/Regression_testing) that fails and work on your function as much as needed until the new test passes along with all the other tests. To get the same input data, either a `console.log` or remote logging at the function top will get it.
 
 Or maybe the function works and the problem is the input data that is wrong for some reason.
 If the data is wrong, to reproduce it, one has to... get the ordered list of all events that occured and led to data alteration (shockingly hard)...
