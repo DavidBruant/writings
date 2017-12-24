@@ -4,8 +4,8 @@ layout: blank
     {% for post in site.posts %}
     <article>
       <header>
-        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
-        <p>{% if page.date %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>{% endif %}</p>
+        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p>{% if post.date %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>{% endif %}</p>
       </header>
       <div>
 {{ post.excerpt }}
