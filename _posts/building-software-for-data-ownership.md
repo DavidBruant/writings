@@ -1,6 +1,4 @@
----
-published: false
----
+
 This blog post is not about the web or any technology in particular, but what i'd call "software hygiene". It is here discussed a proposed standard of how software should mediate data creation and edition in the world we live in (with network connectivity and changing devices).
 
 

@@ -1,5 +1,5 @@
 ---
-published: true
+title: Overarching goals
 ---
 
 ## Overarching goals

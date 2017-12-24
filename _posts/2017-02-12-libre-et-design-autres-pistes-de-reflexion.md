@@ -1,7 +1,7 @@
 ---
-published: true
-title: 'Design dans le libre, pistes de solution ?'
+title: Design dans le libre, pistes de solution ?
 ---
+
 ## Une réponse
 
 Cet article est une réponse à [un autre article](http://mariejulien.com/post/2017/02/08/Le-design-dans-le-libre-%3A-pistes-de-r%C3%A9flexion).

@@ -1,5 +1,5 @@
 ---
-published: true
+title: Power abuse
 ---
 
 ## Power abuse

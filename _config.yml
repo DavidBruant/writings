@@ -7,6 +7,7 @@ url: "https://davidbruant.github.io/"
 baseurl: "/writings" # comment out if in root directory
 
 permalink: /:title
+published: true
 
 style:
 #    body: "whitesmoke"
@@ -26,7 +27,6 @@ links:
 
 
 
-paginate: 10
 excerpt_separator: "\n\n\n" # excerpt ends after two blank lines
 defaults: [
     {scope: {path: ""}, values: {layout: "default"}}, 

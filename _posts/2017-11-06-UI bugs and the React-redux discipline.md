@@ -1,5 +1,5 @@
 ---
-published: true
+title: UI bugs and the React/Redux discipline
 ---
 
 # UI bugs and the React/Redux discipline

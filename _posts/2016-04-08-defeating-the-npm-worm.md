@@ -1,5 +1,5 @@
 ---
-published: true
+title: Defeating the npm work
 ---
 
 ## The threat

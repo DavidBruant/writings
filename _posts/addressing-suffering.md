@@ -1,5 +1,5 @@
 ---
-published: true
+title: Addressing suffering
 ---
 
 ## Addressing suffering
