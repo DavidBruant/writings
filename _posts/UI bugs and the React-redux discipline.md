@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 # UI bugs and the React/Redux discipline
 
 I saw the light on React when I read [James Long's excellent blogpost](http://jlongster.com/Removing-User-Interface-Complexity,-or-Why-React-is-Awesome) where he reimplemented the principles of React as the ["Bloop" library (250 lines)](https://gist.github.com/jlongster/11192270).

@@ -2,9 +2,6 @@
 published: true
 ---
 
-
-
-
 ## The threat
 
 There is a security vulnerability in [npm](https://www.npmjs.com/) by default that enables writing a [worm](https://en.wikipedia.org/wiki/Computer_worm) that can propagate to anyone doing an `npm install` to a package that would contain an infected dependency (even if the dependency is deep).
