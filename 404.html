@@ -8,17 +8,22 @@ layout: blank
     </header>
     <main>
         <script>
-            (function() {
-              var cx = '013632130632699023108:t6hrpzccoqq';
-              var gcse = document.createElement('script');
-              gcse.type = 'text/javascript';
-              gcse.async = true;
-              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-              var s = document.getElementsByTagName('script')[0];
-              s.parentNode.insertBefore(gcse, s);
-            })();
+            const pathname = location.pathname;
+            const pathnameParts = pathname.replace(/\W/g, ' ');
+            const q = encodeURIComponent(pathnameParts.join(''))
 
-            console.log('pathname', location.pathname);
+            console.log('pathname', pathname, pathnameParts, q);
+
+            const API_KEY = 'AIzaSyDxRljSe59Hya8fAIn6S0HrGkxVpD7_62k';
+            const cx = '013632130632699023108:t6hrpzccoqq';
+
+            fetch(`https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${cx}&q=${q}`)
+            .then(r => r.text())
+            .then(text => {
+                console.log('search results', text);
+            })
+            .catch(err => console.error('google CSE error', err))
+
           </script>
           <gcse:search></gcse:search>
     </main>
