@@ -43,11 +43,17 @@ layout: blank
                     function render(results){
                         ol.innerHTML = '';
                         
-                        results.items
+                        const validResults = results.items
                         .filter(i => i.kind === 'customsearch#result' && i.link !== location.href)
-                        .forEach(i => {
-                            ol.appendChild(SearchResult(i));
-                        })
+
+                        if(validResults.length === 0){
+                            ol.textContent = 'Sorry, no relevant search result found'
+                        }
+                        else{
+                            validResults.forEach(i => {
+                                ol.appendChild(SearchResult(i));
+                            })
+                        }
                     }
 
                     searchResultsP.then(results => {
