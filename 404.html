@@ -4,28 +4,62 @@ layout: blank
 
 <article>
 	<header>
-        	<h1>Page not found</h1>
+        	<h1>This is not the page you were looking for</h1>
     </header>
     <main>
+        <p>Hey, but you know what, it's ok :-) 
+        <p>Maybe it's a broken link. Let's try to search the website to find the page you were looking for.
+
         <script>
-            const pathname = location.pathname;
-            const pathnameParts = pathname.replace(/\W/g, ' ');
-            const q = encodeURIComponent(pathnameParts)
+            "use strict";
 
-            console.log('pathname', pathname, pathnameParts, q);
+            {
+                const pathname = location.pathname;
+                const pathnameParts = pathname.replace(/\W/g, ' ');
+                const q = encodeURIComponent(pathnameParts)
 
-            const API_KEY = 'AIzaSyDxRljSe59Hya8fAIn6S0HrGkxVpD7_62k';
-            const cx = '013632130632699023108:t6hrpzccoqq';
+                console.log('pathname', pathname, pathnameParts, q);
 
-            fetch(`https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${cx}&q=${q}`)
-            .then(r => r.text())
-            .then(text => {
-                console.log('search results', text);
-            })
-            .catch(err => console.error('google CSE error', err))
+                const API_KEY = 'AIzaSyDxRljSe59Hya8fAIn6S0HrGkxVpD7_62k';
+                const cx = '013632130632699023108:t6hrpzccoqq';
 
+                fetch(`https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${cx}&q=${q}`)
+                .then(r => r.json())
+                .then(results => {
+                    console.log('search results', results);
+
+                    render(results);
+                })
+                .catch(err => console.error('google CSE error', err))
+
+                function SearchResult(item){
+                    const li = document.createElement('li')
+
+                    const a = document.createElement('a');
+                    a.href = item.link;
+                    a.textContent = item.title;
+
+                    li.appendChild(a);
+                    return li;
+                }
+
+                const ol = document.querySelector('ol');
+
+                function render(results){
+                    ol.innerHTML = '';
+                    
+                    results.items
+                    .filter(i => i.kind === 'customsearch#result' && i.link !== location.href)
+                    .forEach(i => {
+                        ol.appendChild(SearchResult(i));
+                    })
+                }
+            }
           </script>
-          <gcse:search></gcse:search>
+
+          <ol></ol>
+          
+          <footer>Search performed by <a href="https://cse.google.com/">Google Custom Search Engine</a></footer>
     </main>
 </article>
 
