@@ -23,14 +23,8 @@ layout: blank
                 const API_KEY = 'AIzaSyDxRljSe59Hya8fAIn6S0HrGkxVpD7_62k';
                 const cx = '013632130632699023108:t6hrpzccoqq';
 
-                fetch(`https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${cx}&q=${q}`)
-                .then(r => r.json())
-                .then(results => {
-                    console.log('search results', results);
-
-                    render(results);
-                })
-                .catch(err => console.error('google CSE error', err))
+                const searchResultsP = fetch(`https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${cx}&q=${q}`)
+                .then(r => r.json());
 
                 function SearchResult(item){
                     const li = document.createElement('li')
@@ -43,23 +37,32 @@ layout: blank
                     return li;
                 }
 
-                const ol = document.querySelector('ol');
+                document.addEventListener('DOMContentLoaded', e => {
+                    const ol = document.querySelector('ol');
 
-                function render(results){
-                    ol.innerHTML = '';
-                    
-                    results.items
-                    .filter(i => i.kind === 'customsearch#result' && i.link !== location.href)
-                    .forEach(i => {
-                        ol.appendChild(SearchResult(i));
+                    function render(results){
+                        ol.innerHTML = '';
+                        
+                        results.items
+                        .filter(i => i.kind === 'customsearch#result' && i.link !== location.href)
+                        .forEach(i => {
+                            ol.appendChild(SearchResult(i));
+                        })
+                    }
+
+                    searchResultsP.then(results => {
+                        console.log('search results', results);
+
+                        render(results);
                     })
-                }
+                    .catch(err => console.error('google CSE error', err))
+                });
             }
-          </script>
+        </script>
 
-          <ol></ol>
+        <ol></ol>
           
-          <footer>Search performed by <a href="https://cse.google.com/">Google Custom Search Engine</a></footer>
+        <footer>Search performed by <a href="https://cse.google.com/">Google Custom Search Engine</a></footer>
     </main>
 </article>
 
