@@ -1,5 +1,5 @@
 ---
-title: Defeating the npm work
+title: Defeating the npm worm
 ---
 
 ## The threat
