@@ -46,7 +46,7 @@ layout: blank
                         const validResults = results.items && results.items
                         .filter(i => i.kind === 'customsearch#result' && i.link !== location.href)
 
-                        if(validResults && validResults.length === 0){
+                        if(!validResults || (validResults && validResults.length === 0)){
                             ol.textContent = 'Sorry, no relevant search result found'
                         }
                         else{
