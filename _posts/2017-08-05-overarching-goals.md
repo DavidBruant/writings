@@ -2,9 +2,10 @@
 title: Overarching goals
 ---
 
-## Overarching goals
 
 i guess these are my goals in life or what's left of it anyway
+
+## Goals
 
 ### Reducing pain and suffering
 
@@ -25,6 +26,10 @@ and it's exhausting; selfish goal
 Of all the resources, time is the only one that cannot be replaced. With enough energy or other resources, matter can be replaced, transformed, recovered sometimes. time cannot
 
 So it's important to not lose it, to not have it lost, wasted
+
+## Articulation
+
+Goals are in that order (reducing pain and suffering first, saving time second). Saving time is not worth anyone's harm
 
 ## note to others
 
