@@ -9,7 +9,7 @@ Towards the goals of [reducing suffering and saving time](overarching-goals), th
 - [Consent](consent-axiom.md)
 - [Errare humanum est](errare-humanum-est-axiom.md)
 - [Honesty](honesty-axiom.md)
-- [The past is the past](the-past-is-the-past-axiom.md)
-- Expectations are internal
+- [Reality outside humans](reality-outside-humans-axiom.md)
+- [Thoughts, emotions and actions](thoughts-emotions-actions-axiom.md)
 
 It's ok to stop interacting with anyone who would disagree with or act against one of these axioms

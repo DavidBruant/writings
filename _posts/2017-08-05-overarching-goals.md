@@ -29,7 +29,9 @@ So it's important to not lose it, to not have it lost, wasted
 
 ## Articulation
 
-Goals are in that order (reducing pain and suffering first, saving time second). Saving time is not worth anyone's harm
+Goals are in that order: reducing pain and suffering first, saving time last
+
+Saving time is not worth anyone's harm
 
 ## note to others
 
