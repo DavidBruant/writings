@@ -19,3 +19,9 @@ Forcing a decision in 2 because of time limits leads to the consent being invali
 
 If either Alphonse or Bruno fail to do 3, it is a violation of [honesty](honesty-axiom.md)
 
+
+## In case of violation 
+
+Violation of this axiom means forcing someone to do something
+
+This person may be hurt by being forced. This goes against the goal of least-suffering
