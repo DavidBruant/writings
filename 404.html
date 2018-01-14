@@ -15,7 +15,9 @@ layout: blank
 
             {
                 const pathname = location.pathname;
-                const pathnameParts = pathname.replace(/\W/g, ' ');
+                const pathnameParts = pathname
+                    .replace(/\.html$/, '')
+                    .replace(/\W/g, ' ');
                 const q = encodeURIComponent(pathnameParts)
 
                 console.log('pathname', pathname, pathnameParts, q);
