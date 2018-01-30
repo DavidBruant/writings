@@ -9,22 +9,9 @@ baseurl: "/writings" # comment out if in root directory
 permalink: /:title
 published: true
 
-style:
-#    body: "whitesmoke"
-    padding: 33%
-    anchor: "#46f"
-    serif-heading: true
-    nav: "#181818"
-#    headline: "#06f"
-    description: "white"
-    article:
-        odd: "#ffffff"
-        even: "#222222"
-
 links:
   - github: "https://github.com/DavidBruant/"
   - twitter: "https://twitter.com/DavidBruant/"
-
 
 
 excerpt_separator: "\n\n\n" # excerpt ends after two blank lines
