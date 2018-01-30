@@ -4,14 +4,14 @@
 @import basic
 @import mixins
 
-$body: {% if site.style.body %}{{ site.style.body }}{% else %}white{% endif %}
-$padding: {% if site.style.padding %}{{ site.style.padding }}{% else %}33%{% endif %}
-$anchor: {% if site.style.anchor %}{{ site.style.anchor }}{% else %}false{% endif %}
-$nav: {% if site.style.nav %}{{ site.style.nav }}{% else %}#181818{% endif %}
-$headline: {% if site.style.headline %}{{ site.style.headline }}{% else %}#06f{% endif %}
-$description: {% if site.style.description %}{{ site.style.description }}{% else %}white{% endif %}
-$odd: {% if site.style.article.odd %}{{ site.style.article.odd }}{% else %}white{% endif %}
-$even: {% if site.style.article.even %}{{ site.style.article.even }}{% else %}#222{% endif %}
+$body: white
+$padding: 33%
+$anchor: false
+$nav: #181818
+$headline: #06f
+$description: white
+$odd: white
+$even: #222
 
 body
     +body_background($body, $padding)
@@ -22,8 +22,6 @@ body
         background: $description
         color: reduce($description, 100%)
 
-{% if site.style.serif-heading %}
-
 body > header h1
     font-weight: bold
 
@@ -33,9 +31,6 @@ h1, h2, h3, h4, h5, h6
     header &
         text-transform: uppercase
 
-{% endif %}
-
-{% if site.style.headline %}
 
 body > div:first-of-type
     background: $headline
@@ -46,8 +41,6 @@ body > div:first-of-type
 
 nav ul
     margin: 0
-
-{% endif %}
 
 article:nth-of-type(even)
     +article_background($even, $anchor)
