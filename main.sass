@@ -1,3 +1,5 @@
+@import basic
+@import mixins
 
 $body: white
 $padding: 33%
@@ -43,12 +45,4 @@ article:nth-of-type(even)
 article:nth-of-type(odd)
     +article_background($odd, $anchor)
 
-#paginate:nth-child(even)
-    background: $even
-    color: reduce($even, 100%)
 
-#paginate:nth-child(odd)
-    background: $odd
-    color: reduce($odd, 100%)
-
-@import vendor
