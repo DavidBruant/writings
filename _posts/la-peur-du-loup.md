@@ -18,7 +18,7 @@ Ce qui pousse l'enfant à prononcer cette phrase, c'est autre chose que la peur 
 
 ## Réactions et leurs conséquences
 
-### Il n'y a pas de loup
+### 1. Il n'y a pas de loup
 
 > mais il n'y a pas de loup sous ton lit !
 
@@ -29,14 +29,14 @@ Côté parent, elle peut donner l'impression d'avoir répondu au problème et qu
 Côté enfant, la peur est délégitimée. L'émotion de l'enfant n'est pas entendue et sensé comprendre que son problème est résolu. L'enfant essayait d'ouvrir (maladroitement) ses émotions et s'est vu fermer la porte
 
 
-### Reconnaissance simple
+### 2. Reconnaissance simple
 
 > Tu as peur de quelque chose, mais ce n'est pas d'un loup
 
 Cette réaction permet de reconnaître l'émotion. Elle permet à l'enfant, par reflet, de comprendre qu'il est en train de ressentir une émotion
 
 
-### S'engouffrer dans la porte
+### 3. S'engouffrer dans la porte
 
 Une autre option consiste à accepter la proposition, mais chercher ce qu'il y a derrière
 
