@@ -13,7 +13,7 @@ Il peut arriver au parent de répondre "mais il n'y a pas de loup sous ton lit !
 
 Factuellement, il n'y a pas de loup sous le lit. Considérée rationnellement, la phrase de l'enfant est fausse. L'enfant n'a donc aucune raison d'avoir peur d'un loup qui n'existe pas dans la chambre
 
-Ce qui pousse l'enfant à prononcer cette phrase, c'est autre chose que la peur d'un loup. C'est peut-être **une autre peur**, peut-être **une autre émotion**
+Ce qui pousse l'enfant à prononcer cette phrase, c'est autre chose que la peur d'un loup. C'est peut-être **la peur d'autre chose**, peut-être **une autre émotion**
 
 
 ## Réactions et leurs conséquences
@@ -40,7 +40,7 @@ Cette réaction permet de reconnaître l'émotion. Elle permet à l'enfant, par 
 
 Une autre option consiste à accepter la proposition, mais chercher ce qu'il y a derrière
 
-> Pourquoi as-tu peur qu'il y ai un loup ?
+> Pourquoi as-tu peur qu'il y ait un loup ?
 
 > As-tu peur d'autre chose ?
 
@@ -55,7 +55,7 @@ Expliquer qu'il n'y a pas de loup ne résoud pas la situation
 
 La deuxième option permet à l'autre personne de comprendre qu'elle a une émotion non-digérée
 
-La troisième option permet de d'aider l'autre, peut-être à mieux comprendre son émotion. Elle nécessite d'avoir l'envie et l'énergie de le faire
+La troisième option permet d'aider l'autre, peut-être à mieux comprendre son émotion. Elle nécessite d'avoir l'envie et l'énergie de le faire
 
 
 ## Remerciements
