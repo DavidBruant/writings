@@ -4,7 +4,9 @@
     <!-- Niklas Buschmann 2015 MIT <http://github.com/niklasbuschmann> -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% if page.author %}<meta name="author" content="{{ page.author }}">{% endif %}
+    <meta name="referrer" content="same-origin">
+
+    <meta name="author" content="{{ site.author }}">
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <title>{% if page.title %} {{ page.title }} › {% endif %}{{ site.title }}</title>
     <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url}}">
@@ -16,7 +18,7 @@
   </head>
   <body>
     <header>
-      {% unless site.style.headline %}<h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>{% endunless %}
+      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
       <nav>
         <ul>
           <li><a href="{{ site.baseurl }}/">Home</a></li>
@@ -29,7 +31,9 @@
     <article>
       <header>
         <h2><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
-        <p>{% if page.author %}{{ page.author }} • {% endif %}{% if page.date %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>{% endif %}{% if page.categories %} • {{ page.categories | array_to_sentence_string }}{% endif %}</p>
+        {% if page.date %}
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+        {% endif %}
       </header>
       <div>
 {{ content }}
