@@ -20,7 +20,7 @@ Cette auto-culpabilisation, **je ne l'ai jamais ressentie**. Et de mes observati
 
 Un autre comportement internalisé, c'est l'idée de "faire un petit effort", "pour faire plaisir". Il s'agit là aussi d'une marque de domination. L'effort n'a pas été consenti, mais 
 
-Encore une fois, cette pression à faire "des petits efforts", "pour faire plaisir", **je ne l'ai jamais ressentie**. Et de mes observations pas du tout rigoureuses, j'ai vu beaucoup de femmes l'exprimer d'une manière ou d'une autre et j'ai vu très peu d'hommes l'exprimer. Je choisis d'en conclure qu'il s'agit d'une conséquence du sexisme structurel
+Encore une fois, cette pression auto-imposée à faire "des petits efforts", "pour faire plaisir", **je ne l'ai jamais ressentie**. Et de mes observations pas du tout rigoureuses, j'ai vu beaucoup de femmes l'exprimer d'une manière ou d'une autre et j'ai vu très peu d'hommes l'exprimer. Je choisis d'en conclure qu'il s'agit d'une conséquence du sexisme structurel
 
 
 ## Parasitisme
